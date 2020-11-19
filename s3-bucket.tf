@@ -11,7 +11,7 @@ module "s3_bucket" {
   version = "1.15.0"
 
   acceleration_status = "Enabled"
-  bucket = "aindenko"
+#  bucket = "aindenko"
   bucket_prefix = "aindenko"
  # policy = "${var.s3_bucket_policy}"
 #  request_payer = "${var.s3_bucket_request_payer}"
