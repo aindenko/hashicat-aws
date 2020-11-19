@@ -2,7 +2,7 @@
 // Variables
 # variable "s3_bucket_acceleration_status" = "Enabled"
 #variable "s3_bucket_bucket" = "aindenko"
-variable "s3_bucket_request_payer" {}
+#variable "s3_bucket_request_payer" {}
 
 //--------------------------------------------------------------------
 // Modules
